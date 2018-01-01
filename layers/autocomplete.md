@@ -1,5 +1,7 @@
 [SpaceVim Layers](../layers.md)
+
 [TOC]
+
 # 简介
 提供SpaceVim中的自动补全功能。
 支持一下补全插件：
@@ -27,7 +29,7 @@ call SpaceVim#layers#load('autocomplete')
 
 2. `auto-completion-tab-key-behavior` 在按下`TAB`时可设置要执行的操作，可用变量如下：
  * `smart` 循环选择，片段展开，参数跳转
- * `complete`补全当前所选
+ * `complete` 补全当前所选
  * `cycle` 补全候选之间的共同前缀和循环
  * `nil` 插入一个回车
 
