@@ -4,7 +4,6 @@
     - [开启layer](#开启layer)
     - [关闭layer](#关闭layer)
 - [可用layer](#可用layer)
-[TOC]
 
 # 介绍
 spacevim是一个社区驱动的vim配置，旨在提供layer功能。layer有助于收集相关的vim插件以提供功能。
