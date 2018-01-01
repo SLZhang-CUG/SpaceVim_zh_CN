@@ -4,9 +4,13 @@
 提供SpaceVim中的自动补全功能。
 支持一下补全插件：
 [neocomplete](https://github.com/Shougo/neocomplete.vim)-支持lua的vim，即`+lua`
+
 [neocomplcache](https://github.com/Shougo/neocomplcache.vim)-不支持lua的vim
+
 [deoplete](https://github.com/Shougo/deoplete.nvim)-支持Python3的neovim，即`+python3`
+
 [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)-默认关闭状态，如想启用，见`:h g:spacevim_enable_ycm`
+
 Snippets支持由[neosnippet](https://github.com/Shougo/neosnippet.vim)提供
 # 安装
 在你自己的配置文件中加入下面这行配置代码：
