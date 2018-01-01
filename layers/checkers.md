@@ -1,4 +1,5 @@
 [SpaceVim Layers](../layers.md):checkers
+
 [TOC]
 
 # 描述
@@ -14,7 +15,7 @@
 |-|-|-|
 |`g:spacevim_enable_neomake`|1|使用neomake作为默认检查工具|
 |`g:spacevim_enable_ale`|0|使用ale作为默认检查工具|
-|`g:spacevim_line_on_the_fly|0|在fly特性上面进行语法检查，默认关闭|
+|`g:spacevim_line_on_the_fly`|0|在fly特性上面进行语法检查，默认关闭|
 
 **NOTE** 如果你想用ale，需要：
 
