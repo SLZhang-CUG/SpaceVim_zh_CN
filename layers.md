@@ -19,7 +19,7 @@ call SpaceVim#layers#load('shell',
 call SpaceVim#layers#disable('shell')
 ```
 # 可用layer
-|姓名|简介|
+|名称|简介|
 |-|-|
 |[autocomplete](layers/autocomplete.md)|提供SpaceVim的自动补全|
 |[chat](layers/chat.md)|在vim中提供QQ和微信聊天|
