@@ -19,5 +19,33 @@ call SpaceVim#layers#load('shell',
 call SpaceVim#layers#disable('shell')
 ```
 # 可用layer
-姓名|简介
+|姓名|简介|
+|-|-|
+|[autocomplete](layers/autocomplete.md)|提供SpaceVim的自动补全|
+|[chat](layers/chat.md)|在vim中提供QQ和微信聊天|
+|[checkers](layers/checkers.md)|语法检查功能|
+|[chinese](layers/chinese.md)|包含中文文档和runtime信息|
+|[colorscheme](layers/colorscheme.md)|提供了SpaceVim主题列表，默认问grubbox|
+|[debug](layer/debug.md)|提供debug功能|
+|[default](layer/default.md)|没有包含任何插件，但是提供了一些vim和neovim较好的默认配置|
+|[git](layers/git.md)|git的扩展支持|
+|[lang#c](layers/lang/c.md)|c/c++/object-c开发支持|
+|[lang#elixir](layers/lang/elixir.md)|elixir开发，自动补全，语法检查，代码格式化|
+|[lang#go](layers/lang/go.md)|golang开发，其他特定的语言键映射|
+|[lang#haskell](layers/lang/haskell.md)|haskell开发|
+|[lang#java](layers/lang/java.md)|java开发，代码补全、格式化、语法检查、REPL和debug等功能|
+|[lang#javascript](layers/lang/javascript.md)|javascript开发|
+|[lang#lisp](layers/lang/lisp.md)|lisp开发|
+|[lang#lua](layers/lang/lua.md)|lua代码的补全、语法检查、代码格式化|
+|[lang#markdown](layers/lang/markdown.md)|在浏览器中进行预览，格式化|
+|[lang#php](layers/lang/php.md)|php语言支持|
+|[lang#python](layers/lang/python.md)|补全、语法检查、格式化|
+|[lang#ruby](layers/lang/ruby.md)|补全、语法检查、格式化|
+|[lang#typescript](layers/lang/typescript.md)|TypeScript开发|
+|[lang#vim](layers/lang/vim.md)|用于vim脚本开发，包含代码补全、语法检查、缓冲区格式化|
+|[language-server-protocal](layers/language-server-protocal.md)|为vim和neovim提供语言服务协议(大概是这么翻译吧)|
+|[shell](layers/shell.md)|SpaceVim中的shell支持|
+|[tags](layers/tages.md)|项目tags管理|
+|[ui](layers/ui.md)|Awesome UI layer for SpaceVim, provide IDE-like UI for neovim and vim in both TUI and GUI(不会翻译)|
+
 
