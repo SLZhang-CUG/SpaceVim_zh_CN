@@ -1,4 +1,4 @@
-[SpaceVim Layers](../layers.md)
+[SpaceVim Layers](../layers.md):autocomplete
 
 [TOC]
 
