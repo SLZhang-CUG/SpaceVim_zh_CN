@@ -1,0 +1,44 @@
+[SpaceVim Layers](../layers.md):checkers
+[TOC]
+
+# 描述
+
+提供语法检查功能
+
+# layer的安装
+
+默认加载
+
+# 配置
+|名称|默认值|描述|
+|-|-|-|
+|`g:spacevim_enable_neomake`|1|使用neomake作为默认检查工具|
+|`g:spacevim_enable_ale`|0|使用ale作为默认检查工具|
+|`g:spacevim_line_on_the_fly|0|在fly特性上面进行语法检查，默认关闭|
+
+**NOTE** 如果你想用ale，需要：
+
+```vim
+let g:spacevim_enable_neomake = 0
+let g:spacevim_enable_ale = 1
+```
+
+如果你想用syntastic,需要将上面的两个选项设置为0
+
+# 键绑定
+
+|键|模式|描述|
+|-|-|-|
+|`SPC e .`|Normal|打开错误状态|
+|`SPC e c`|Normal|清空错误信息|
+|`SPC e h`|Normal|描述当前检查状态|
+|`SPC e n`|Normal|跳转到下一个错误位置|
+|`SPC e N`|Normal|跳转到前一个错误位置|
+|`SPC e p`|Normal|跳转到前一个错误位置|
+|`SPC e l`|Normal|显示错误列表|
+|`SPC e L`|Normal|显示错误列表并且集中在错误缓冲区中|
+|`SPC e e`|Normal|解释当前的错误|
+|`SPC e s`|Normal|设置语法检查器(TODO)|
+|`SPC e S`|Normal|设置语法检查器执行(TODO)|
+|`SPC e v`|Normal|验证语法设置|
+|`SPC t s`|Normal|切换语法|
