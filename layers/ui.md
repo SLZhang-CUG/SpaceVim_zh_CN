@@ -7,8 +7,10 @@
 [SpaceVim Layers](../layers.md):ui
 
 # 描述
+
 UI模块默认开始
-#插件
+
+# 插件
 
 * [mhinz/vim-startify](https://github.com/mhinz/vim-startify)
 * [majutsushi/tagbar](https://github.com/majutsushi/tagbar)
