@@ -30,7 +30,7 @@ call SpaceVim#layers#disable('shell')
 |[chat](layers/chat.md)|在vim中提供QQ和微信聊天|
 |[checkers](layers/checkers.md)|语法检查功能|
 |[chinese](layers/chinese.md)|包含中文文档和runtime信息|
-|[colorscheme](layers/colorscheme.md)|提供了SpaceVim主题列表，默认问grubbox|
+|[colorscheme](layers/colorscheme.md)|提供了SpaceVim主题列表，默认问gruvbox|
 |[debug](layer/debug.md)|提供debug功能|
 |[default](layer/default.md)|没有包含任何插件，但是提供了一些vim和neovim较好的默认配置|
 |[git](layers/git.md)|git的扩展支持|

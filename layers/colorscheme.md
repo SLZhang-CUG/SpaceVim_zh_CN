@@ -1,0 +1,17 @@
+
+
+[SpaceVim Layers](../layers.md):colorscheme
+
+提供很多Vim颜色主题，默认为gruvbox。
+
+可以通过下面的命令更改颜色主题：
+```vim
+let g:spacevim_colorscheme = 'onedark'
+```
+
+很多主题提供light和dark两种形式，其中很多通过更改vim背景色进行更改。SpaceVim使用`g:spacevim_colorscheme_bg`进行设置：
+```vim
+let g:spacevim_colorscheme_bg = 'dark'
+```
+
+
