@@ -35,6 +35,7 @@ call SpaceVim#layers#disable('shell')
 |[default](layer/default.md)|没有包含任何插件，但是提供了一些vim和neovim较好的默认配置|
 |[git](layers/git.md)|git的扩展支持|
 |[lang#c](layers/lang/c.md)|c/c++/object-c开发支持|
+|[lang#dart](layers/lang/dart.md)|自动补全，语法检查，代码格式化|
 |[lang#elixir](layers/lang/elixir.md)|elixir开发，自动补全，语法检查，代码格式化|
 |[lang#go](layers/lang/go.md)|golang开发，其他特定的语言键映射|
 |[lang#haskell](layers/lang/haskell.md)|haskell开发|
