@@ -1,0 +1,68 @@
+
+
+# 描述
+
+用于dart开发
+
+# 特性
+
+1. 代码补全
+2. 语法检查
+3. 代码格式化
+4. REPL
+5. 代码运行
+
+# 安装
+
+## 模块
+
+在自定义配置文件中加入如下代码：
+
+```vim
+call SpaceVim#layers#load('lang#dart')`
+```
+
+## 语法检查和代码格式化
+
+需要安装[dart sdk](https://github.com/dart-lang/sdk)，在SpaceVim中启用语法检查和代码格式化
+
+## 安装`dart-repl`
+
+需要用`pub`安装`dart-repl`，`pub`是dark-sdk中的包管理工具：
+
+```shell
+pub global activate dart_repl
+```
+
+# 键绑定
+
+## Inferior REPL process
+
+通过`SPC l s i`开始`dart.repl` inferior REPL process
+
+|键绑定|描述|
+|-|-|
+|`SPC l s b`|发送缓冲区并保持代码缓冲区集中|
+|`SPC l s l`|发送行并保持代码缓冲区的重点|
+|`SPC l s s`|发送选择文本并保持代码缓冲区为重点|
+
+## 运行当前代码文件
+
+可以通过`SPC l r`来运行当前文件，运行结果会在运行窗口显示出来
+
+## 代码格式化
+
+|键绑定|描述|
+|-|-|
+|`SPC b f`|格式化当前代码|
+
+# 截图
+
+代码格式化
+![code formatting](https://user-images.githubusercontent.com/13142418/34455939-b094db54-ed4f-11e7-9df0-80cf5de1128d.gif)
+
+自动补全
+![auto competion](https://user-images.githubusercontent.com/13142418/34455816-ee77182c-ed4c-11e7-8f63-402849f60405.png)
+
+运行代码
+![code runner](https://user-images.githubusercontent.com/13142418/34455403-1f6d4c3e-ed44-11e7-893f-09a6e64e27ed.png)
