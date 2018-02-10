@@ -76,6 +76,7 @@ To make neoformat support java file, you should install uncrustify. or download 
 ## 跳转
 
 |键绑定|描述|
+|-|-|
 |`SPC l j a`|跳转到所选文件|
 
 ## Inferior REPL process
