@@ -6,7 +6,7 @@
 - [layer配置](#layer配置)
 - [键绑定](#键绑定)
     - [import键绑定](#import键绑定)
-- [generate键绑定](#generate键绑定)
+    - [generate键绑定](#generate键绑定)
 
 
 # 描述
@@ -48,7 +48,7 @@ call SpaceVim#layers#load('lang#javascript',
 |`<C-j>f `(Insert)	|Import missing symbols|
 |`<C-j>g `(Insert)	|Jump to module under cursor|
 
-# generate键绑定
+## generate键绑定
 
 |模式|键绑定|描述|
 |-|-|-|
